@@ -22,10 +22,10 @@ public class JavaCSV {
 			stringDataFinal+=stringData[i];
 			stringDataFinal+="\n";
 
-		   	stringData[i] = stringData[i]getClass().substring(1, stringData[i].length());
+		   	stringData[i] = stringData[i].substring(1, stringData[i].length());
 		}
 		
-		for (int i = 0; i < stringData.length(); i++) {
+		for (int i = 0; i < stringData.length; i++) {
 			stringDataFinal += stringData[i];
 			stringDataFinal += "\n";
 		}
