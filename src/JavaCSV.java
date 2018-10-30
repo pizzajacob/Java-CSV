@@ -12,7 +12,7 @@ public class JavaCSV {
 		this.Data = data;
 	}
 	
-	private void format() throws IOException {
+	public void save() throws IOException {
 		for (int i = 0; i < Data.length; i++) {
 		   	stringData[i] = Data[i].toString();
 		   	stringData[i] = stringData[i].substring(1,stringData[i].length());
