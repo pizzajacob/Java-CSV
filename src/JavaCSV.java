@@ -20,7 +20,7 @@ public class JavaCSV {
 	
 	public void save() throws IOException {
 		for (int i = 0; i < Data.length; i++) {
-		   	stringData[i] = Data[i].toString();
+		   	stringData[i] = Arrays.toString(Data[i]);
 		   	stringData[i] = stringData[i].substring(1,stringData[i].length());
 		}
 		
