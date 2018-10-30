@@ -8,9 +8,15 @@ public class JavaCSV {
 	private String stringDataFinal;
 	private String fileName = "test.csv";
 	
+	public JavaCSV(int[][] data, String fileName) {
+		this.Data = data;
+		this.fileName = fileName;
+	}
+	
 	public JavaCSV(int[][] data) {
 		this.Data = data;
 	}
+	
 	
 	public void save() throws IOException {
 		for (int i = 0; i < Data.length; i++) {
